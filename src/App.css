@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  /* Açık ve profesyonel bir arka plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #333333 !important;
+  /* Daha sade ve okunabilir bir metin rengi */
+}
+
+.cv-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  /* Beyaz bir arka plan */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Hafif bir gölge */
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #4a4a4a;
+  /* Daha koyu ama yumuşak bir başlık rengi */
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #555555;
+  /* Daha sade ve yumuşak tonlar */
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4a4a4a;
+  /* Bölüm başlıkları için sade bir koyu gri */
+  border-bottom: 2px solid #1e90ff;
+  /* Profesyonel bir mavi */
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
+  color: #4a4a4a;
+  /* Alt başlıklar için sade bir koyu gri */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  color: #333333;
+  /* Okunaklı bir koyu gri */
+  padding-left: 20px;
+  position: relative;
+  font-weight: 500;
+}
+
+ul li::before {
+  content: '•';
+  color: #1e90ff;
+  /* Dikkat çeken ama sade bir mavi */
+  position: absolute;
+  left: 0;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.contact-info p {
+  margin: 3px 0;
+  color: #555555;
+  /* Metin için yumuşak bir ton */
+}
+
+h4 {
+  color: #4a4a4a;
+  /* Yumuşak koyu gri bir ton */
+  font-weight: normal;
+  /* Daha zarif bir görünüm sağlar */
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+ 
+
+}
