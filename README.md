@@ -1,4 +1,5 @@
 # React.js ile Uygulama Geliştirme CV Projesi
+projeyi çalıştırmak için npm install yapmayı unutunmayın
 
 ### Proje Hakkında
 
